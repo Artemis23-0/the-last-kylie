@@ -1,0 +1,11 @@
+.Main-Nav-Bar{
+    display: flex;
+    background-color: burlywood;
+}
+
+.Menu-Buttons {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}

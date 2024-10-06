@@ -1,0 +1,12 @@
+.Footer-Shell {
+    display: flex;
+    background-color: burlywood;
+}
+
+.Children {
+    align-content: center;
+}
+
+.Satire {
+    color: gray;
+}
