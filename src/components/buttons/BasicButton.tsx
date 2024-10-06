@@ -9,10 +9,11 @@ function BasicButton(props: IBasicButton) {
             onClick={props.onClick}
             style={{
                 ...props.style,
-                fontSize: 40,
             }}
             variant={props.variant ?? "text"}
             title={props.title}
+            type={props.type}
+            disabled={props.disabled}
         >
             {props.children}
         </Button>

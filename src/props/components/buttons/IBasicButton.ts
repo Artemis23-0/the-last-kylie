@@ -6,7 +6,9 @@ interface IBasicButton {
     onClick?: MouseEventHandler<HTMLButtonElement>,
     style?: React.CSSProperties,
     variant?: "text" | "contained" | "outlined",
-    title?: "string",
+    title?: string,
+    type?: "button" | "reset" | "submit",
+    disabled?: boolean,
 }
 
 export default IBasicButton;

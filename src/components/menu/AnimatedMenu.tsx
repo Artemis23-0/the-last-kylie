@@ -38,6 +38,7 @@ function AnimatedMenu(props: IAnimatedMenu) {
             {props.text}
         </AnimatedButton>
         <Menu
+            key={props.id}
             id={props.id}
             anchorEl={anchorEl}
             open={open}
@@ -62,6 +63,7 @@ function AnimatedMenu(props: IAnimatedMenu) {
                 props.children?.map((item) => {
                     return (
                         <AnimatedMenuItem 
+                            key={item.id}
                             id={item.id}
                             title={item.title}
                             onClick={handleClick}
